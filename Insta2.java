@@ -77,7 +77,7 @@ public class Insta2 {
 	+".view.ViewGroup/android.view.ViewGroup[3]/android.view.ViewGroup/android.view.ViewGroup/android"
 			+".widget.EditText"));
 	pass1.clear();
-	pass1.sendKeys("Vab159@1");
+	pass1.sendKeys("Vab@123@1");
 	Thread.sleep(2000);
 	driver1.findElement(By.xpath("//android.widget.Button[@content-desc=\"Log In\"]/android.view.ViewGroup")).click();
 	Thread.sleep(4000);
